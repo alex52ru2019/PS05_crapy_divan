@@ -34,3 +34,4 @@ class OzonnewparsSpider(scrapy.Spider):
                 'link': "https://www.ozon.ru" + lamp_ozon.css('a::attr(href)').get()
             }
 
+
